@@ -32,9 +32,9 @@ export default function Nav() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal hover:text-xl font-semibold text-white transition-all duration-300 cursor-pointer"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center ">
           CIDFF 18
         </a>
       </Typography>
@@ -42,7 +42,7 @@ export default function Nav() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal hover:text-xl font-semibold text-white transition-all duration-300 cursor-pointer"
       >
         <a href="#" className="flex items-center">
           Planning Familial 18
@@ -52,7 +52,7 @@ export default function Nav() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal hover:text-xl font-semibold text-white transition-all duration-300 cursor-pointer"
       >
         <a href="#" className="flex items-center">
           Centre LGBTQI+
@@ -64,7 +64,10 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a
+          href="#"
+          className="p-1 font-normal hover:text-xl font-semibold text-white transition-all duration-300 cursor-pointer"
+        >
           Médecine Scolaire
         </a>
       </Typography>
