@@ -8,7 +8,7 @@ const fontItim = Itim({
 
 export default function AccueilComponent() {
   return (
-    <section className={`mt-10 flex items-center bg-white ${fontItim.className}`}>
+    <section className={`flex items-center bg-white ${fontItim.className}`}>
       <div className="mx-auto px-8 grid grid-cols-1 md:grid-cols-2 items-center">
 
         <div>
@@ -32,7 +32,7 @@ export default function AccueilComponent() {
         </div>
 
         
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-10">
           <Image
             src="/images/Inauguration-pole-associatif-et-centre-medico-scolaire-Gisele-Halimi-8.jpeg"
             alt="Inauguration du pôle associatif"
@@ -46,3 +46,4 @@ export default function AccueilComponent() {
     </section>
   )
 }
+
