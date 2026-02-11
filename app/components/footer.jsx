@@ -33,7 +33,7 @@ const fontItim = Itim({
   weight: ["400"],
 });
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className={`relative w-full ${fontItim.className}`}>
       <div className="mx-auto w-full max-w-7xl px-8">
