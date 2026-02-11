@@ -17,7 +17,6 @@ export default function Page() {
         <main>
             <Nav/>
             <AccueilComponent/>
-            <Footer/>
             <h1 className={`text-[#7C7C7C] text-4xl font-bold mb-6 mt-4 flex justify-center border-b-4 border-orange-500 pb-4 w-fit mx-auto ${fontItim.className}`}>
                             Nos Associations
                         </h1>
@@ -25,6 +24,7 @@ export default function Page() {
                         <SectionAssociationPlanning/>
                         <SectionAssociationLgbt/>
                         <SectionAssociationMedecine/>
+                        <Footer/>
         </main>
     );
 }
