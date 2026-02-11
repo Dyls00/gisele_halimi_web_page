@@ -8,12 +8,13 @@ const fontItim = Itim({
 
 export default function AccueilComponent() {
   return (
-    <section className={`flex items-center height-100 bg-white ${fontItim.className}`}>
+    <section className={`mt-10 flex items-center bg-white ${fontItim.className}`}>
       <div className="mx-auto px-8 grid grid-cols-1 md:grid-cols-2 items-center">
 
         <div>
           <h1 className="text-gray-700 text-4xl font-bold mb-6">
-            LE PÔLE ASSOCIATIF <br />
+            LE PÔLE ASSOCIATIF ET <br />
+            CENTRE MÉDICO-SCOLAIRE <br />
             <span>
               Gisèle Halimi
             </span>
@@ -26,9 +27,7 @@ export default function AccueilComponent() {
             associatives des Pressavois.
           </p>
 
-          <button className="bg-gray-400 py-3 px-5 rounded-lg shadow-lg text-white hover:bg-gray-500">
-            En savoir plus
-          </button>
+          
         </div>
 
         
@@ -46,6 +45,3 @@ export default function AccueilComponent() {
     </section>
   )
 }
-
-
-
