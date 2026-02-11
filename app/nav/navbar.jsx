@@ -88,7 +88,7 @@ export default function Nav() {
             href="#"
             className="mr-4 cursor-pointer py-1.5 font-medium"
           >
-            Pôle associatif Gisèle Halimi
+            Pôle associatif et Médico-scolaire Gisèle Halimi
           </Typography>
         </div>
 
