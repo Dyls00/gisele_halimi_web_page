@@ -32,9 +32,9 @@ export default function Nav() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal hover:text-xl font-semibold text-white transition-all duration-300 cursor-pointer"
+        className="p-1 font-normal  text-white cursor-pointer"
       >
-        <a href="#" className="flex items-center ">
+        <a href="#" className="flex items-center transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
           CIDFF 18
         </a>
       </Typography>
@@ -42,9 +42,9 @@ export default function Nav() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal hover:text-xl font-semibold text-white transition-all duration-300 cursor-pointer"
+        className="p-1 font-normal  text-white cursor-pointer"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
           Planning Familial 18
         </a>
       </Typography>
@@ -52,9 +52,9 @@ export default function Nav() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal hover:text-xl font-semibold text-white transition-all duration-300 cursor-pointer"
+        className="p-1 font-normal  text-white cursor-pointer"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
           Centre LGBTQI+
         </a>
       </Typography>
@@ -62,11 +62,11 @@ export default function Nav() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal  text-white cursor-pointer"
       >
         <a
           href="#"
-          className="p-1 font-normal hover:text-xl font-semibold text-white transition-all duration-300 cursor-pointer"
+          className="flex items-center transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
         >
           Médecine Scolaire
         </a>
@@ -95,7 +95,7 @@ export default function Nav() {
         <div className="flex items-center gap-4">
           <div className="mr-4 hidden lg:block">{navList}</div>
           <div className="flex items-center gap-x-1">
-            <Button variant="text" size="sm" className="hidden lg:inline-block">
+            <Button variant="text" size="sm" className="hidden lg:inline-block cursor-pointer transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
               <span>Contact</span>
             </Button>
           </div>

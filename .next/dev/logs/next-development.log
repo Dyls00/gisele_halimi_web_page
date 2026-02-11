@@ -44,3 +44,75 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:17:04.806] Browser WARN    Image with src "/images/Inauguration-pole-associatif-et-centre-medico-scolaire-Gisele-Halimi-8.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:17:04.806] Browser WARN    Image with src "/images/Inauguration-pole-associatif-et-centre-medico-scolaire-Gisele-Halimi-8.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:25:11.807] Server  LOG     ✓ Compiled in 178ms
+[00:26:48.628] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:48.848] Browser WARN    Image with src "/images/Inauguration-pole-associatif-et-centre-medico-scolaire-Gisele-Halimi-8.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:26:48.849] Browser WARN    Image with src "/images/Inauguration-pole-associatif-et-centre-medico-scolaire-Gisele-Halimi-8.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:27:38.096] Server  LOG     ✓ Compiled in 51ms
+[00:27:39.456] Server  LOG     ✓ Compiled in 74ms
+[00:27:42.150] Server  LOG     ✓ Compiled in 55ms
+[00:27:46.633] Server  LOG     ✓ Compiled in 56ms
+[00:28:00.494] Server  LOG     ✓ Compiled in 60ms
+[00:28:11.979] Server  LOG     ✓ Compiled in 71ms
+[00:28:29.528] Server  LOG     ✓ Compiled in 99ms
+[00:28:32.620] Server  LOG     ✓ Compiled in 53ms
+[00:28:36.213] Server  LOG     ✓ Compiled in 82ms
+[00:28:39.731] Server  LOG     ✓ Compiled in 66ms
+[00:28:48.563] Server  LOG     ✓ Compiled in 74ms
+[00:35:38.744] Server  LOG     ✓ Compiled in 53ms
+[00:35:42.029] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:42.328] Browser WARN    Image with src "/images/Inauguration-pole-associatif-et-centre-medico-scolaire-Gisele-Halimi-8.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:35:42.328] Browser WARN    Image with src "/images/Inauguration-pole-associatif-et-centre-medico-scolaire-Gisele-Halimi-8.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:36:08.662] Server  LOG     ✓ Compiled in 57ms
+[00:36:11.813] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:12.099] Browser WARN    Image with src "/images/Inauguration-pole-associatif-et-centre-medico-scolaire-Gisele-Halimi-8.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:36:12.099] Browser WARN    Image with src "/images/Inauguration-pole-associatif-et-centre-medico-scolaire-Gisele-Halimi-8.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:36:27.595] Server  LOG     ✓ Compiled in 45ms
+[00:36:30.182] Server  LOG     ✓ Compiled in 56ms
+[00:36:43.480] Server  LOG     ✓ Compiled in 101ms
+[00:36:57.710] Server  LOG     ✓ Compiled in 72ms
+[00:37:03.063] Server  LOG     ✓ Compiled in 91ms
+[00:37:08.061] Server  LOG     ✓ Compiled in 59ms
+[00:37:27.394] Server  LOG     ✓ Compiled in 93ms
+[00:37:31.827] Server  LOG     ✓ Compiled in 78ms
+[00:37:54.614] Server  LOG     ✓ Compiled in 55ms
+[00:37:55.662] Server  LOG     ✓ Compiled in 39ms
+[00:38:03.534] Server  LOG     ✓ Compiled in 30ms
+[00:43:15.651] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:15.888] Browser WARN    Image with src "/images/Inauguration-pole-associatif-et-centre-medico-scolaire-Gisele-Halimi-8.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:43:15.888] Browser WARN    Image with src "/images/Inauguration-pole-associatif-et-centre-medico-scolaire-Gisele-Halimi-8.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:45:53.378] Server  LOG     ✓ Compiled in 67ms
+[00:45:57.561] Server  LOG     ✓ Compiled in 58ms
+[00:46:02.012] Server  LOG     ✓ Compiled in 90ms
+[00:46:06.012] Server  LOG     ✓ Compiled in 53ms
+[00:46:44.060] Server  LOG     ✓ Compiled in 79ms
+[00:47:07.431] Server  LOG     ✓ Compiled in 48ms
+[00:47:24.212] Server  LOG     ✓ Compiled in 189ms
+[00:47:26.595] Server  LOG     ✓ Compiled in 68ms
+[00:47:53.696] Server  LOG     ✓ Compiled in 56ms
+[00:48:05.512] Server  LOG     ✓ Compiled in 60ms
+[00:48:13.077] Server  LOG     ✓ Compiled in 44ms
+[00:48:15.347] Server  LOG     ✓ Compiled in 58ms
+[00:49:03.979] Server  LOG     ✓ Compiled in 76ms
+[00:49:39.427] Server  LOG     ✓ Compiled in 246ms
+[00:49:52.149] Server  LOG     ✓ Compiled in 40ms
+[00:49:57.199] Server  LOG     ✓ Compiled in 54ms
+[00:50:13.031] Server  LOG     ✓ Compiled in 42ms
+[00:50:16.894] Server  LOG     ✓ Compiled in 89ms
+[00:50:25.446] Server  LOG     ✓ Compiled in 48ms
+[00:50:27.880] Server  LOG     ✓ Compiled in 49ms
+[00:50:33.706] Server  LOG     ✓ Compiled in 109ms
+[00:51:15.369] Server  LOG     ✓ Compiled in 201ms
+[00:51:20.060] Server  LOG     ✓ Compiled in 43ms
+[00:51:35.562] Server  LOG     ✓ Compiled in 31ms
+[00:52:00.544] Server  LOG     ✓ Compiled in 102ms
+[00:52:15.818] Server  LOG     ✓ Compiled in 93ms
+[00:52:30.388] Server  LOG     ✓ Compiled in 38ms
+[00:52:34.629] Server  LOG     ✓ Compiled in 69ms
+[00:52:35.663] Server  LOG     ✓ Compiled in 32ms
+[00:52:39.996] Server  LOG     ✓ Compiled in 57ms
+[00:52:47.077] Server  LOG     ✓ Compiled in 42ms
