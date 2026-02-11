@@ -32,7 +32,7 @@ export default function AccueilComponent() {
         </div>
 
         
-        <div className="flex justify-center mt-10">
+        <div className="flex justify-center">
           <Image
             src="/images/Inauguration-pole-associatif-et-centre-medico-scolaire-Gisele-Halimi-8.jpeg"
             alt="Inauguration du pôle associatif"
@@ -46,4 +46,5 @@ export default function AccueilComponent() {
     </section>
   )
 }
+
 
