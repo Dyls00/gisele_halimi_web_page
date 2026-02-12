@@ -1,44 +1,49 @@
-import Image from "next/image"
-import { Itim } from "next/font/google"
+import Image from "next/image";
+import { Itim } from "next/font/google";
 
 const fontItim = Itim({
   subsets: ["latin"],
   weight: ["400"],
-})
+});
 
 export default function SectionAssociationPlanning() {
   return (
-    <section className={`mt-10 flex items-center bg-[#7C7C7C] ${fontItim.className} rounded-lg shadow-lg ml-10 mr-10`}>
-      <div className="mx-auto px-8 grid grid-cols-1 md:grid-cols-2 items-center ">
-
-        <div className="flex flex-col items-center">
-          <h1 className="text-white text-4xl font-bold mb-6 mt-4 flex justify-center ">
+    <section
+      className={`mt-16 bg-[#7C7C7C] ${fontItim.className} rounded-xl shadow-lg mx-4 md:mx-10 py-12`}
+    >
+      <div className="container mx-auto max-w-6xl px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        {/* Texte */}
+        <div className="text-center md:text-left">
+          <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
             Médecine Scolaire
           </h1>
 
-          <p className="text-white leading-relaxed mb-9 text-lg">
-            Les Centres Médico Scolaires organisent les visites médicales des élèves d'une zone géographique donnée (bassin d'éducation) 
-            regroupant ainsi plusieurs établissements du premier et second degré publics.
+          <p className="text-gray-100 leading-relaxed text-base md:text-lg mb-8 max-w-xl mx-auto md:mx-0">
+            Les Centres Médico Scolaires organisent les visites médicales des
+            élèves d'une zone géographique donnée (bassin d'éducation),
+            regroupant ainsi plusieurs établissements du premier et second degré
+            publics.
           </p>
 
-          <a href="https://www.ac-orleans-tours.fr/sante-social-securite-dans-le-cher-121859" className="w-fit bg-gray-400 py-1 px-2 rounded-lg shadow-lg text-white hover:bg-gray-500 mb-6 align-center mx-auto cursor-pointer">
+          <a
+            href="https://www.ac-orleans-tours.fr/sante-social-securite-dans-le-cher-121859"
+            className="inline-block bg-gray-600 hover:bg-gray-700 transition px-6 py-3 rounded-xl shadow-md text-white"
+          >
             En savoir plus
           </a>
-        
         </div>
 
-        <div className="flex justify-center mt-4 mb-4">
+        {/* Image */}
+        <div className="flex justify-center">
           <Image
             src="/images/logo-medecinenew.png"
             alt="Médecine Scolaire"
             width={350}
             height={150}
-            className="rounded-lg shadow-lg"
+            className="rounded-xl shadow-lg w-64 md:w-80 lg:w-96 h-auto object-contain"
           />
         </div>
-        
       </div>
     </section>
-  )
+  );
 }
-
