@@ -39,7 +39,7 @@ export default function Footer() {
             <div key={key} className="w-full">
               <Typography
                 variant="small"
-                color="blue-gray"
+                color="white"
                 className="mb-4 font-bold uppercase opacity-50"
               >
                 {title}
@@ -49,7 +49,7 @@ export default function Footer() {
                   <Typography
                     key={key}
                     as="li"
-                    color="blue-gray"
+                    color="white"
                     className="font-normal"
                   >
                     <a
@@ -67,22 +67,22 @@ export default function Footer() {
           <div className="w-full">
             <Typography
               variant="small"
-              color="blue-gray"
+              color="white"
               className="mb-4 font-bold uppercase opacity-50"
             >
               / INFORMATIONS SUR LE POLE ASSOCIATIF
             </Typography>
             <ul className="space-y-1">
-              <Typography as="li" color="blue-gray" className="font-normal">
+              <Typography as="li" color="white" className="font-normal">
                 Mairie de Bourges
               </Typography>
-              <Typography as="li" color="blue-gray" className="font-normal">
+              <Typography as="li" color="white" className="font-normal">
                 Site Internet : www.ville-bourges.fr
               </Typography>
-              <Typography as="li" color="blue-gray" className="font-normal">
+              <Typography as="li" color="white" className="font-normal">
                 Téléphone : 02 48 57 80 00
               </Typography>
-              <Typography as="li" color="blue-gray" className="font-normal">
+              <Typography as="li" color="white" className="font-normal">
                 Adresse email : mairie@ville-bourges.fr
               </Typography>
             </ul>
@@ -91,12 +91,12 @@ export default function Footer() {
         <div className="flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
           <Typography
             variant="small"
-            className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
+            className="mb-4 text-center font-normal text-white md:mb-0"
           >
             &copy; {currentYear} Pôle associatif Gisèle Halimi. Tous droits
             réservés.
           </Typography>
-          <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
+          <div className="flex gap-4 text-white sm:justify-center">
             <Typography
               as="a"
               href="#"

@@ -75,7 +75,7 @@ export default function Nav() {
                     className={classNames(
                       item.current
                         ? "bg-gray-950/50 text-white"
-                        : "text-gray-300 hover:bg-white/5 hover:text-white",
+                        : "text-white hover:bg-white/5 hover:text-white",
                       "rounded-md px-3 py-2 text-sm font-medium",
                     )}
                   >
@@ -87,7 +87,7 @@ export default function Nav() {
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <div className="hidden sm:ml-6 sm:block">
-              <a href="#accueil" onClick={handleAnchorClick} className="cursor-pointer py-1.5 font-medium">
+              <a href="#accueil" onClick={handleAnchorClick} className="cursor-pointer py-1.5 font-medium text-white">
                 Pôle associatif et Médico-scolaire Gisèle Halimi
               </a>
             </div>
@@ -107,7 +107,7 @@ export default function Nav() {
               className={classNames(
                 item.current
                   ? "bg-gray-950/50 text-white"
-                  : "text-gray-300 hover:bg-white/5 hover:text-white",
+                  : "text-white hover:bg-white/5 hover:text-white",
                 "block rounded-md px-3 py-2 text-base font-medium",
               )}
             >

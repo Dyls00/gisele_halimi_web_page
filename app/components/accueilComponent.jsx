@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function AccueilComponent() {
   return (
-    <section id="accueil" className={`flex items-center height-100 mb-10 bg-white fontArial`}>
+    <section id="accueil" className={`flex items-center height-100 mb-10 bg-[#FFF6E8] fontArial`}>
       <div className="mx-auto px-8 grid grid-cols-1 md:grid-cols-2 items-center">
 
         <div>
