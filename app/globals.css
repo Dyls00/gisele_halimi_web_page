@@ -37,10 +37,10 @@ body {
 html {
   scroll-behavior: smooth;
   /* Reserve space at top equal to the fixed nav height (h-16 = 4rem) */
-  scroll-padding-top: 3rem;
+  scroll-padding-top: 4rem;
 }
 
 /* Ensure targets (elements with an id) are scrolled into view below the fixed navbar */
 [id] {
-  scroll-margin-top: 3rem;
+  scroll-margin-top: 4rem;
 }

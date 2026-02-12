@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function SectionAssociationLgbt() {
   return (
-    <section id="lgbtqia" className={`mt-10 flex items-center bg-[#7C7C7C] rounded-lg shadow-lg ml-10 mr-10`}>
+    <section id="lgbtqia" className={`mt-10 flex items-center bg-[#7A5C8E] rounded-lg shadow-lg ml-10 mr-10 fontArial`}>
       <div className="mx-auto px-8 grid grid-cols-1 md:grid-cols-2 items-center ">
 
         <div className="flex justify-center mt-4 mb-4">
