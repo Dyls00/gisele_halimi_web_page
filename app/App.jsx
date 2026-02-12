@@ -1,12 +1,12 @@
 "use client";
 
-import Navbar from "@/app/navbar/Nav";
-import AccueilComponent from "@/app/components/accueilComponent";
-import LgbtPage from "@/app/components/sectionAssociationLgbt";
-import CidffPage from "@/app/components/sectionAssociationCidff";
-import PlanningFamilialPage from "@/app/components/sectionAssociationPlanning";
-import MedecineScolairePage from "@/app/components/sectionAssociationMedecine";
-import ContactPage from "@/app/components/footer";
+import Navbar from "./navbar/Nav";
+import AccueilComponent from "./components/accueilComponent";
+import LgbtPage from "./components/sectionAssociationLgbt";
+import CidffPage from "./components/sectionAssociationCidff";
+import PlanningFamilialPage from "./components/sectionAssociationPlanning";
+import MedecineScolairePage from "./components/sectionAssociationMedecine";
+import ContactPage from "./components/footer";
 
 export default function App() {
   return (
