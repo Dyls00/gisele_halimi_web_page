@@ -1,54 +1,97 @@
-import { useState } from "react";
-import { navbarData } from "./navbarData";
-import { Link } from "react-router-dom";
+"use client";
+import {
+  Disclosure,
+  DisclosureButton,
+  DisclosurePanel
+} from "@headlessui/react";
+import { Bars3Icon,  XMarkIcon } from "@heroicons/react/24/outline";
+import { navData } from "./navData";
 
-export default function Navbar() {
-  const [toggle, setToggle] = useState(false);
+function classNames(...classes) {
+  return classes.filter(Boolean).join(" ");
+}
 
-  const showNav = () => {
-    setToggle(!toggle);
-  };
-
-  // start mobile first plus facile
+export default function Example() {
   return (
-    <nav className="fixed top-0 w-full bg-slate-500 items-center flex p-4">
-      <div className="flex justify-between items-center w-full flex-wrap md:flex-nowrap">
-        <h1 className="text-xl text-white font-bold cursor-pointer">Logo</h1>
-
-        <button
-          className="flex justify-end md:hidden ring-1 ring-black rounded"
-          onClick={showNav}
-        >
-          <i className="fas fa-bars text-white w-9 h-9 flex justify-center items-center hover:text-black"></i>
-        </button>
-
-        <ul
-          className={`${
-            toggle ? " flex" : " hidden"
-          } flex-col justify-center items-center w-full first:mt-2 md:flex-row md:w-auto md:space-x-10 md:flex`}
-        >
-          {navbarData.map((link, index) => {
-            return (
-              <li key={index} className={link.cname}>
-                <Link
-                  className="hover:text-sky-500"
-                  to={link.href}
-                  onClick={showNav}
-                >
-                  {link.title}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
-        <button
-          className={`${
-            toggle ? " flex" : " hidden"
-          } text-indigo-800 hover:bg-gray-300 mx-auto md:mx-0 md:flex md:mt-0 items-center justify-center font-medium bg-gray-100 px-1 p-2 rounded-lg mt-4 w-24`}
-        >
-          Login
-        </button>
+    <Disclosure
+      as="nav"
+      className="fixed bg-black after:pointer-events-none w-full after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10"
+    >
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div className="relative flex h-16 items-center justify-between">
+          <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            {/* Mobile menu button*/}
+            <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-white/5 hover:text-white focus:outline-2 focus:-outline-offset-1 focus:outline-indigo-500">
+              <span className="absolute -inset-0.5" />
+              <span className="sr-only">Open main menu</span>
+              <Bars3Icon
+                aria-hidden="true"
+                className="block size-6 group-data-open:hidden"
+              />
+              <XMarkIcon
+                aria-hidden="true"
+                className="hidden size-6 group-data-open:block"
+              />
+            </DisclosureButton>
+          </div>
+          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+            <div className="flex shrink-0 items-center">
+              <img
+                alt="Logo Bourges"
+                src="/images/bourges.png"
+                className="h-9 w-30"
+              />
+            </div>
+            <div className="hidden sm:ml-6 sm:block">
+              <div className="flex space-x-4">
+                {navData.map((item) => (
+                  <a
+                    key={item.title}
+                    href={item.href}
+                    aria-current={item.current ? "page" : undefined}
+                    className={classNames(
+                      item.current
+                        ? "bg-gray-950/50 text-white"
+                        : "text-gray-300 hover:bg-white/5 hover:text-white",
+                      "rounded-md px-3 py-2 text-sm font-medium",
+                    )}
+                  >
+                    {item.title}
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+            <div className="hidden sm:ml-6 sm:block">
+              <a href="#accueil" className="cursor-pointer py-1.5 font-medium">
+                Pôle associatif et Médico-scolaire Gisèle Halimi
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
+
+      <DisclosurePanel className="sm:hidden">
+        <div className="space-y-1 px-2 pt-2 pb-3">
+          {navData.map((item) => (
+            <DisclosureButton
+              key={item.title}
+              as="a"
+              href={item.href}
+              aria-current={item.current ? "page" : undefined}
+              className={classNames(
+                item.current
+                  ? "bg-gray-950/50 text-white"
+                  : "text-gray-300 hover:bg-white/5 hover:text-white",
+                "block rounded-md px-3 py-2 text-base font-medium",
+              )}
+            >
+              {item.title}
+            </DisclosureButton>
+          ))}
+        </div>
+      </DisclosurePanel>
+    </Disclosure>
   );
 }

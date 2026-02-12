@@ -1,14 +1,10 @@
 import Image from "next/image"
 import { Itim } from "next/font/google"
 
-const fontItim = Itim({
-  subsets: ["latin"],
-  weight: ["400"],
-})
 
 export default function SectionAssociationPlanning() {
   return (
-    <section className={`mt-10 flex items-center bg-[#7C7C7C] ${fontItim.className} rounded-lg shadow-lg ml-10 mr-10`}>
+    <section id="planning" className={`mt-10 flex items-center bg-[#7C7C7C] rounded-lg shadow-lg ml-10 mr-10`}>
       <div className="mx-auto px-8 grid grid-cols-1 md:grid-cols-2 items-center ">
 
         <div className="flex flex-col items-center">
