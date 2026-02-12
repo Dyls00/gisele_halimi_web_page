@@ -12,6 +12,28 @@ function classNames(...classes) {
 }
 
 export default function Nav() {
+  // Handle in-page anchor clicks to apply a smooth scroll with an offset
+  function handleAnchorClick(e) {
+    try {
+      const href = e.currentTarget.getAttribute("href");
+      if (href && href.startsWith("#")) {
+        e.preventDefault();
+        const id = href.slice(1);
+        const target = document.getElementById(id);
+        if (target) {
+          const nav = document.querySelector("nav");
+          const navHeight = nav ? nav.offsetHeight : 64; // fallback
+          const extraGap = 12; // px of extra margin above target
+          const top = target.getBoundingClientRect().top + window.pageYOffset - navHeight - extraGap;
+          window.scrollTo({ top, behavior: "smooth" });
+          // update URL without jumping
+          history.replaceState(null, "", href);
+        }
+      }
+    } catch (err) {
+      // fail quietly and let default behavior occur
+    }
+  }
   return (
     <Disclosure
       as="nav"
@@ -49,6 +71,7 @@ export default function Nav() {
                     key={item.title}
                     href={item.href}
                     aria-current={item.current ? "page" : undefined}
+                    onClick={handleAnchorClick}
                     className={classNames(
                       item.current
                         ? "bg-gray-950/50 text-white"
@@ -64,7 +87,7 @@ export default function Nav() {
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <div className="hidden sm:ml-6 sm:block">
-              <a href="#accueil" className="cursor-pointer py-1.5 font-medium">
+              <a href="#accueil" onClick={handleAnchorClick} className="cursor-pointer py-1.5 font-medium">
                 Pôle associatif et Médico-scolaire Gisèle Halimi
               </a>
             </div>
@@ -79,6 +102,7 @@ export default function Nav() {
               key={item.title}
               as="a"
               href={item.href}
+              onClick={handleAnchorClick}
               aria-current={item.current ? "page" : undefined}
               className={classNames(
                 item.current
