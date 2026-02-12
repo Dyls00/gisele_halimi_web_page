@@ -8,7 +8,7 @@ const fontItim = Itim({
 
 export default function AccueilComponent() {
   return (
-    <section className={`flex items-center height-100 mb-10 bg-white ${fontItim.className}`}>
+    <section id="accueil" className={`flex items-center height-100 bg-white ${fontItim.className}`}>
       <div className="mx-auto px-8 grid grid-cols-1 md:grid-cols-2 items-center">
 
         <div>

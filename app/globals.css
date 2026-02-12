@@ -26,5 +26,21 @@ body {
 }
 
 .height-100{
-  height: 65vh;
+  height: 70vh;
+}
+
+.height-10{
+  height: 10vh;
+}
+
+/* Smooth scrolling for in-page anchors */
+html {
+  scroll-behavior: smooth;
+  /* Reserve space at top equal to the fixed nav height (h-16 = 4rem) */
+  scroll-padding-top: 3rem;
+}
+
+/* Ensure targets (elements with an id) are scrolled into view below the fixed navbar */
+[id] {
+  scroll-margin-top: 3rem;
 }
