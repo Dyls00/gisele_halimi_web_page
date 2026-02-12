@@ -5,23 +5,23 @@ import { Typography } from "@material-tailwind/react";
 const SITEMAP = [
   {
     title: "/ PAGES",
-    links: ["CIDFF 18", "Planning familial du Cher"],
+    info: [
+      { name: "CIDFF 18", link: "#" },
+      { name: "Planning familial du Cher", link: "#" },
+    ],
   },
   {
     title: "/ PAGES",
-    links: ["Médecine scolaire", "LGBTQIA +"],
+    info: [
+      { name: "Médecine scolaire", link: "#" },
+      { name: "LGBTQIA +", link: "#" },
+    ],
   },
   {
     title: "/ LÉGAL ",
-    links: ["BloMentions légalesg", "Conditions générales"],
-  },
-  {
-    title: "/ INFORMATIONS SUR LE POLE ASSOCIATIF",
-    links: [
-      "Mairie de Bourges",
-      "Site Internet :	www.ville-bourges.fr",
-      "Téléphone : 02 48 57 80 00",
-      "Adresse email :	mairie@ville-bourges.fr",
+    info: [
+      { name: "Mentions légales", link: "#" },
+      { name: "Conditions générales", link: "#" },
     ],
   },
 ];
@@ -38,7 +38,7 @@ export default function Footer() {
     <footer className={`relative w-full ${fontItim.className}`}>
       <div className="mx-auto w-full max-w-7xl px-8">
         <div className="mx-auto grid w-full grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-4">
-          {SITEMAP.map(({ title, links }, key) => (
+          {SITEMAP.map(({ title, info }, key) => (
             <div key={key} className="w-full">
               <Typography
                 variant="small"
@@ -48,7 +48,7 @@ export default function Footer() {
                 {title}
               </Typography>
               <ul className="space-y-1">
-                {links.map((link, key) => (
+                {info.map(({ name, link }, key) => (
                   <Typography
                     key={key}
                     as="li"
@@ -56,27 +56,47 @@ export default function Footer() {
                     className="font-normal"
                   >
                     <a
-                      href="#"
+                      href={link}
                       className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                     >
-                      {link}
+                      {name}
                     </a>
                   </Typography>
                 ))}
               </ul>
             </div>
           ))}
+          <div className="w-full">
+            <Typography
+              variant="small"
+              color="blue-gray"
+              className="mb-4 font-bold uppercase opacity-50"
+            >
+              / INFORMATIONS SUR LE POLE ASSOCIATIF
+            </Typography>
+            <ul className="space-y-1">
+              <Typography as="li" color="blue-gray" className="font-normal">
+                Mairie de Bourges
+              </Typography>
+              <Typography as="li" color="blue-gray" className="font-normal">
+                Site Internet : www.ville-bourges.fr
+              </Typography>
+              <Typography as="li" color="blue-gray" className="font-normal">
+                Téléphone : 02 48 57 80 00
+              </Typography>
+              <Typography as="li" color="blue-gray" className="font-normal">
+                Adresse email : mairie@ville-bourges.fr
+              </Typography>
+            </ul>
+          </div>
         </div>
         <div className="flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
           <Typography
             variant="small"
             className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
           >
-            &copy; {currentYear}{" "}
-            <a href="https://material-tailwind.com/">
-              Pôle associatif Gisèle Halimi.
-            </a>
-            Tous droits réservés.
+            &copy; {currentYear} Pôle associatif Gisèle Halimi. Tous droits
+            réservés.
           </Typography>
           <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
             <Typography
