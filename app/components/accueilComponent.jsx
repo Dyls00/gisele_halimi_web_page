@@ -22,10 +22,9 @@ export default function AccueilComponent() {
             Fraternité, des locaux associatifs des Merlattes, des salles
             associatives des Pressavois.
           </p>
-
-          <button className="bg-gray-400 py-3 px-5 rounded-lg shadow-lg text-white hover:bg-gray-500">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.ville-bourges.fr/site/egalite-femmes-hommes" className="bg-gray-400 py-3 px-5 rounded-lg shadow-lg text-white hover:bg-gray-500 cursor-pointer">
             En savoir plus
-          </button>
+          </a>
         </div>
 
         

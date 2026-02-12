@@ -54,6 +54,7 @@ export default function Footer() {
                   >
                     <a
                       href={link}
+                      target="_blank"
                       className="inline-block py-1 pr-2 transition-transform hover:scale-105"
                     >
                       {name}

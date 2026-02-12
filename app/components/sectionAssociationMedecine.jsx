@@ -18,7 +18,7 @@ export default function SectionAssociationPlanning() {
             regroupant ainsi plusieurs établissements du premier et second degré publics.
           </p>
 
-          <a href="https://www.ac-orleans-tours.fr/sante-social-securite-dans-le-cher-121859" className="w-fit bg-gray-400 py-1 px-2 rounded-lg shadow-lg text-white hover:bg-gray-500 mb-6 align-center mx-auto cursor-pointer">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.ac-orleans-tours.fr/sante-social-securite-dans-le-cher-121859" className="w-fit bg-gray-400 py-1 px-2 rounded-lg shadow-lg text-white hover:bg-gray-500 mb-6 align-center mx-auto cursor-pointer">
             En savoir plus
           </a>
         

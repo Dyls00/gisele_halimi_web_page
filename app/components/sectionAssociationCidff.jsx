@@ -29,7 +29,7 @@ export default function SectionAssociationCidff() {
             Promouvoir l’égalité entre les femmes et les hommes.
           </p>
 
-          <a href="https://cher.cidff.info" className="w-fit bg-gray-400 py-1 px-2 rounded-lg shadow-lg text-white hover:bg-gray-500 mb-6 align-center mx-auto cursor-pointer">
+          <a target="_blank" rel="noopener noreferrer" href="https://cher.cidff.info" className="w-fit bg-gray-400 py-1 px-2 rounded-lg shadow-lg text-white hover:bg-gray-500 mb-6 align-center mx-auto cursor-pointer">
             En savoir plus
           </a>
         
