@@ -6,22 +6,22 @@ const SITEMAP = [
   {
     title: "/ PAGES",
     info: [
-      { name: "CIDFF 18", link: "#" },
-      { name: "Planning familial du Cher", link: "#" },
+      { name: "CIDFF 18", link: "#cidff" },
+      { name: "Planning familial du Cher", link: "#planning" },
     ],
   },
   {
     title: "/ PAGES",
     info: [
-      { name: "Médecine scolaire", link: "#" },
-      { name: "LGBTQIA +", link: "#" },
+      { name: "Médecine scolaire", link: "#médecine" },
+      { name: "LGBTQIA +", link: "#lgbtqia" },
     ],
   },
   {
     title: "/ LÉGAL ",
     info: [
-      { name: "Mentions légales", link: "#" },
-      { name: "Conditions générales", link: "#" },
+      { name: "Mentions légales", link: "/documents/mentions_legales.pdf" },
+      { name: "Conditions générales", link: "/documents/CGU.pdf" },
     ],
   },
 ];
