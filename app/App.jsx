@@ -1,6 +1,6 @@
 "use client";
 
-import Navbar from "@/app/navbar/Nav";
+import Navbar from "@/app/navbar/nav";
 import AccueilComponent from "@/app/components/accueilComponent";
 import LgbtPage from "@/app/components/sectionAssociationLgbt";
 import CidffPage from "@/app/components/sectionAssociationCidff";
