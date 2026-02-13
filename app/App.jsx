@@ -13,8 +13,8 @@ export default function App() {
     <main>
         <Navbar />
         <AccueilComponent />
-        <h1 className="text-[#7C7C7C] text-4xl font-bold mb-6 mt-4 flex justify-center border-b-4 border-orange-500 pb-4 w-fit mx-auto">
-          Nos Associations
+        <h1 className="text-black text-3xl font-bold mb-6 mt-4 flex justify-center border-b-4 border-black pb-4 w-fit mx-auto">
+          NOS ASSOCIATIONS
         </h1>
         <CidffPage />
         <PlanningFamilialPage />
