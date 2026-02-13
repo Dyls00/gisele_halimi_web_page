@@ -26,8 +26,8 @@ export default function SectionAssociationLgbt() {
             l’expression de genre, l’orientation sexuelle des personnes au niveau local.
           </p>
 
-          <a target="_blank" rel="noopener noreferrer" href="https://centrelgbtqiaberry.fr" className="w-fit bg-gray-400 py-1 px-2 rounded-lg shadow-lg text-white hover:bg-gray-500 mb-6 align-center mx-auto cursor-pointer">
-            En savoir plus
+          <a target="_blank" rel="noopener noreferrer" href="https://centrelgbtqiaberry.fr" className="w-fit bg-[#FFFFFF] py-2 px-3 rounded-lg shadow-lg text-[#1E1E1E] hover:bg-gray-500 mb-6 align-center mx-auto cursor-pointer">
+            Accéder à l'association
           </a>
         
         </div>
