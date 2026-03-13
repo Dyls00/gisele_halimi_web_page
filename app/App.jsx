@@ -6,7 +6,8 @@ import LgbtPage from "@/app/components/sectionAssociationLgbt";
 import CidffPage from "@/app/components/sectionAssociationCidff";
 import PlanningFamilialPage from "@/app/components/sectionAssociationPlanning";
 import MedecineScolairePage from "@/app/components/sectionAssociationMedecine";
-import ContactPage from "@/app/components/footer";
+import SectionContact from "@/app/components/sectionContact";
+import Footer from "@/app/components/footer";
 
 export default function App() {
   return (
@@ -20,7 +21,8 @@ export default function App() {
         <PlanningFamilialPage />
         <LgbtPage />
         <MedecineScolairePage />
-        <ContactPage />
+        <SectionContact />
+        <Footer />
     </main>
   );
 }
