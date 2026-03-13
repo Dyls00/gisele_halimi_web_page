@@ -14,10 +14,8 @@ export default function SectionAssociationPlanning() {
           </h1>
 
           <p className="text-white leading-relaxed mb-9 text-lg">
-            Mouvement féministe et d'éducation populaire, le Planning familial milite pour le droit à l'éducation à la sexualité, à la contraception, 
-            à l'avortement, à l'égalité des droits entre les femmes et les hommes et combat toutes formes de violences et de discriminations.
-
-
+            Depuis sa réouverture fin 2022, le Planning Familial du Cher (PF18) est un acteur incontournable de la vie associative berruyre. Mouvement féministe et d'éducation populaire, il milite pour le droit à l'éducation à la sexualité, à la contraception, à l'avortement, et à l'égalité entre les femmes et les hommes, tout en combattant toutes les formes de violences et de discriminations.
+Basée au 5 rue Samson à Bourges, l'association propose accueil, information et conseil sur la contraception et l'avortement, Ccdordogne-bessede s'adressant à tous les publics dans un cadre bienveillant et engagé.
           </p>
 
           <a target="_blank" rel="noopener noreferrer" href="https://www.planning-familial.org/fr/le-planning-familial-du-cher-18" className="w-fit bg-[#FFFFFF] py-2 px-3 rounded-lg shadow-lg text-[#1E1E1E] hover:bg-gray-500 mb-6 align-center mx-auto cursor-pointer">
@@ -28,7 +26,7 @@ export default function SectionAssociationPlanning() {
 
         <div className="flex justify-center">
           <Image
-            src="/images/logo-famille.jpg"
+            src="/images/logo-famille.webp"
             alt="planning familial 18"
             width={350}
             height={150}

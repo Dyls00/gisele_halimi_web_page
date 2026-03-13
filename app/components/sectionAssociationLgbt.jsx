@@ -7,7 +7,7 @@ export default function SectionAssociationLgbt() {
 
         <div className="flex justify-center mt-4 mb-4">
           <Image
-            src="/images/logo-lgbtnew.png"
+            src="/images/logo-lgbtnew.webp"
             alt="Centre LGBTQIA+ Berry"
             width={350}
             height={150}
@@ -21,9 +21,8 @@ export default function SectionAssociationLgbt() {
           </h1>
 
           <p className="text-white leading-relaxed mb-9 text-lg">
-            Le centre LGBTQIA+ du Berry est une association qui a pour mission de :
-            Lutter contre toutes les formes d’exclusion, de discrimination, de sexisme et d’injustice fondées ou supposées sur l’identité de genre,
-            l’expression de genre, l’orientation sexuelle des personnes au niveau local.
+            Fondé durant l'été 2021, le Centre LGBTQIA+ Berry est une association à but non lucratif basée à Bourges. Sa mission est de lutter contre toutes les formes d'exclusion, de discrimination, de sexisme et d'injustice fondées sur l'identité de genre, l'expression de genre ou l'orientation sexuelle.
+L'association défend et promeut l'égalité des droits des personnes lesbiennes, gays, bisexuelles, transgenres, intersexes, queers et asexuelles, et crée un lieu d'accueil et d'écoute pour toutes les personnes LGBTQIA+ ou en questionnement. Des permanences sont assurées chaque mercredi de 18h30 à 20h30, au 2 Square d'Alice à Bourges. 
           </p>
 
           <a target="_blank" rel="noopener noreferrer" href="https://centrelgbtqiaberry.fr" className="w-fit bg-[#FFFFFF] py-2 px-3 rounded-lg shadow-lg text-[#1E1E1E] hover:bg-gray-500 mb-6 align-center mx-auto cursor-pointer">
