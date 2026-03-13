@@ -30,3 +30,10 @@ export const navData = [
       "border-t border-b font-medium w-full flex justify-center p-2.5 md:border-none md:p-0 md:w-auto"
   }
 ];
+
+export const navTitle = [
+  {
+    href: "#contact",
+    description: "Pôle associatif et Médico-scolaire Gisèle Halimi"
+  }
+];

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gisele-halimi-web-page.vercel.app/sitemap.xml

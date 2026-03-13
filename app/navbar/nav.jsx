@@ -5,7 +5,8 @@ import {
   DisclosurePanel
 } from "@headlessui/react";
 import { Bars3Icon,  XMarkIcon } from "@heroicons/react/24/outline";
-import { navData } from "./navData";
+import { navData, navTitle } from "./navData";
+import Image from "next/image"
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -58,10 +59,11 @@ export default function Nav() {
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex shrink-0 items-center">
-              <img
+              <Image
                 alt="Logo Bourges"
-                src="/images/bourges.png"
-                className="h-9 w-30"
+                src="/images/bourgesVN.png"
+                width={40}
+                height={15}
               />
             </div>
             <div className="hidden sm:ml-6 sm:block">
@@ -87,9 +89,18 @@ export default function Nav() {
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <div className="hidden sm:ml-6 sm:block">
-              <a href="#accueil" onClick={handleAnchorClick} className="cursor-pointer py-1.5 font-medium text-white">
-                Pôle associatif et Médico-scolaire Gisèle Halimi
-              </a>
+              {navTitle.map((item) => (
+                  <a
+                      key={item.description}
+                      href={item.href}
+                      onClick={handleAnchorClick}
+                      className={classNames(
+                          "cursor-pointer py-1.5 font-medium text-white"
+                      )}
+                  >
+                    {item.description}
+                  </a>
+              ))}
             </div>
           </div>
         </div>
