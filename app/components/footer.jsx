@@ -1,16 +1,8 @@
 "use client";
 
 import { Typography } from "@material-tailwind/react";
-<<<<<<< HEAD
-<<<<<<< HEAD
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
-
-=======
 import Image from "next/image";
->>>>>>> 5085910 (plusieurs tickets)
-=======
-import Image from "next/image";
->>>>>>> 5085910cc28b07ae3a2402773457110b2cfb75b7
 
 const SITEMAP = [
   {
@@ -88,40 +80,9 @@ export default function Footer() {
             variant="small"
             className="mb-4 text-center font-normal text-white md:mb-0"
           >
-            &copy; {currentYear} Pôle associatif Gisèle Halimi. Tous droits
+           {currentYear} Pôle associatif Gisèle Halimi. Tous droits
             réservés.
           </Typography>
-<<<<<<< HEAD
-          <div className="flex gap-4 mr-5">
-              <Typography
-                as="a"
-                href="https://www.facebook.com/mairie.bourges"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="opacity-80 transition-opacity hover:opacity-100"
-              >
-                <FaFacebook className="text-white" size={24} />
-              </Typography>
-              <Typography
-                as="a"
-                href="https://www.instagram.com/villedebourges/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="opacity-80 transition-opacity hover:opacity-100"
-              >
-                <FaInstagram className="text-white" size={24} />
-              </Typography>
-              <Typography
-                as="a"
-                href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/VilleDeBourges&ved=2ahUKEwi4_8X1gZ2TAxXkVqQEHdF-EWUQFnoECCAQAQ&usg=AOvVaw2sJlx9VdmY0BoeET5fb2uX"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="opacity-80 transition-opacity hover:opacity-100"
-              >
-                <FaTwitter className="text-white" size={24} />
-              </Typography>
-            </div>
-=======
           <div className="flex gap-4 text-white sm:justify-center">
             <Typography
               as="a"
@@ -135,7 +96,6 @@ export default function Footer() {
               className="opacity-80 transition-opacity hover:opacity-100"
             ></Typography>
           </div>
->>>>>>> 5085910 (plusieurs tickets)
         </div>
       </div>
     </footer>

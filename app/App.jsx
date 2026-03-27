@@ -16,7 +16,7 @@ export default function App() {
         <AccueilComponent />
         <h1 className="text-3xl font-bold mb-6 mt-4 flex justify-center border-b-4 pb-4 w-fit mx-auto">
           NOS ASSOCIATIONS
-        </h2>
+        </h1>
         <CidffPage />
         <PlanningFamilialPage />
         <LgbtPage />
