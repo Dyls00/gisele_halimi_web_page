@@ -2,6 +2,7 @@
 
 import Navbar from "@/app/navbar/nav";
 import AccueilComponent from "@/app/components/accueilComponent";
+import PoleHalimiComponent from "@/app/components/pole-halimi";
 import LgbtPage from "@/app/components/sectionAssociationLgbt";
 import CidffPage from "@/app/components/sectionAssociationCidff";
 import PlanningFamilialPage from "@/app/components/sectionAssociationPlanning";
@@ -14,6 +15,7 @@ export default function App() {
     <main>
         <Navbar />
         <AccueilComponent />
+        <PoleHalimiComponent />
         <h2 className="text-3xl font-bold h-15 mb-6 mt-4 flex justify-center border-b-4 pb-4 w-fit mx-auto">
           NOS ASSOCIATIONS
         </h2>
