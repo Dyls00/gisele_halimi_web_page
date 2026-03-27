@@ -25,7 +25,7 @@ export default function SectionContact() {
             <div className="button_p1">
               <button className="group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-gray-800/30 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:shadow-gray-600/50 border border-white/20">
               <a
-                  href={`mailto:${item.adresseMail}`}
+                  href={item.site}
                   className="text-white text-sm md:text-base break-all"
                   target="_blank"
                 >
