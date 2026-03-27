@@ -28,7 +28,6 @@ body {
 }
 
 .gradient-button:hover {
-  
   transform: scale(1.03);
 }
 
@@ -42,6 +41,10 @@ body {
 
 .overflow-wrap {
   overflow-wrap: break-word;
+}
+
+.z-position{
+  z-index: 10;
 }
 
 /* Smooth scrolling for in-page anchors */
@@ -76,7 +79,6 @@ html {
  transition: 0.3s ease-in-out;
  transition-property: background-position, border, color;
  position: relative;
- z-index: 1;
 }
 
 .primary-button:hover {
@@ -144,7 +146,6 @@ html {
 
  border-top: 0px;
     /* opacity: 0.3; */
- z-index: 0;
 }
 
 .shape {
