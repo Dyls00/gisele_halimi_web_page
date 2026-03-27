@@ -1,22 +1,16 @@
 import Image from "next/image";
-import { Itim } from "next/font/google";
 
-const fontItim = Itim({
-  subsets: ["latin"],
-  weight: ["400"],
-});
-
-export default function SectionAssociationPlanning() {
+export default function SectionMedecine() {
   return (
-    <section
-      className={`mt-16 bg-[#7C7C7C] ${fontItim.className} rounded-xl shadow-lg mx-4 md:mx-10 py-12`}
+    <section id = "medecine"
+      className={`mt-16 bg-[#7C7C7C] rounded-xl shadow-lg mx-4 md:mx-10 py-12`}
     >
       <div className="container mx-auto max-w-6xl px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Texte */}
         <div className="text-center md:text-left">
-          <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+          <p className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
             Médecine Scolaire
-          </h1>
+          </p>
 
           <p className="text-gray-100 leading-relaxed text-base md:text-lg mb-8 max-w-xl mx-auto md:mx-0">
             Les Centres Médico Scolaires organisent les visites médicales des
