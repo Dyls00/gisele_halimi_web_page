@@ -42,7 +42,7 @@ export default function Nav() {
   return (
     <Disclosure
       as="nav"
-      className="fixed bg-[#7A5C8E] z-position fontArial after:pointer-events-none w-full after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10"
+      className="fixed bg-[#7A5C8E] w-full z-10 fontArial after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10"
     >
       <div className="mx-auto  max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
@@ -63,12 +63,15 @@ export default function Nav() {
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
             <div className="flex shrink-0 items-center">
-              <Image
-                alt="Logo Bourges"
-                src="/images/logo.png"
-                width={40}
-                height={15}
-              />
+              <a href="#accueil">
+                <Image
+                  alt="Logo Bourges"
+                  src="/images/logo.png"
+                  width={40}
+                  height={15}
+                  className="h-10 w-10"
+                />
+              </a>
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4 ">
