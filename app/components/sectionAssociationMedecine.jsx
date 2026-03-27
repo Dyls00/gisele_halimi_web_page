@@ -45,7 +45,7 @@ export default function SectionMedecine() {
         {/* Image */}
         <div className="flex justify-center">
           <Image
-            src="/images/logo-medecinenew.png"
+            src="/images/Logo---quadri---academie-orleans-tours (1).webp"
             alt="Médecine Scolaire"
             width={350}
             height={150}
