@@ -4,7 +4,7 @@ export default function SectionAssociationPlanning() {
   return (
     <section
       id="planning"
-      className={`mt-16 bg-[#7C7C7C] rounded-xl shadow-lg mx-4 md:mx-10 py-12`}
+      className={`mt-16 bg-[#7A5C8E] rounded-xl shadow-lg mx-4 md:mx-10 py-12`}
     >
       <div className="container mx-auto max-w-6xl px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Texte */}

@@ -57,7 +57,7 @@ export default function Nav() {
               />
               <XMarkIcon
                 aria-hidden="true"
-                className="hidden size-6 group-data-open:block"
+                className="hidden mb-55 size-6 group-data-open:block"
               />
             </DisclosureButton>
           </div>

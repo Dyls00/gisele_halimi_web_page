@@ -2,15 +2,18 @@ import Image from "next/image";
 
 export default function PoleHalimiComponent() {
   return (
-    <section className="border-2 border-dark-200 rounded-lg mt-5 mx-4 md:mx-8 lg:mx-12 py-8 font-normal" id="pole-halimi">
+    <section
+      className="bg-[#7A5C8E] rounded-lg mt-5 mx-4 md:mx-8 lg:mx-12 py-8 font-normal"
+      id="pole-halimi"
+    >
       <div className="container mx-auto max-w-6xl px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center .overflow-wrap">
         <div className="text-center md:text-left">
-
-          <p className="text-gray-600 leading-relaxed text-base md:text-lg mb-8 max-w-xl mx-auto md:mx-0">
-            Situé dans les quartiers prioritaires de la Chancellerie et des
-            Gibjoncs, le pôle associatif est composé du Hameau de la Fraternité,
-            des locaux associatifs des Merlattes, des salles associatives des
-            Pressavois.
+          <p className="leading-relaxed font-normal md:text-lg mb-8 max-w-xl mx-auto md:mx-0">
+            Un moment fort, chargé de sens, qui rend hommage à une figure
+            engagée pour les droits et la justice. Ce lieu devient désormais un
+            espace de partage, d’entraide et d’initiatives au service des
+            citoyens et du tissu associatif local, au cœur de Bourges, en
+            mémoire de Gisèle Halimi.
           </p>
         </div>
         <div className="flex justify-center">
