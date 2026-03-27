@@ -14,10 +14,8 @@ export default function SectionMedecine() {
           </p>
 
           <p className="text-gray-100 leading-relaxed text-base md:text-lg mb-8 max-w-xl mx-auto md:mx-0">
-            Les Centres Médico Scolaires organisent les visites médicales des
-            élèves d'une zone géographique donnée (bassin d'éducation),
-            regroupant ainsi plusieurs établissements du premier et second degré
-            publics.
+            Les Centres Médico-Scolaires (CMS) sont des structures de l'Éducation Nationale dédiées à la santé et au bien-être des enfants et adolescents scolarisés. Ils organisent les visites médicales des élèves regroupés par bassin d'éducation, couvrant ainsi plusieurs établissements du premier et second degré publics.
+Au-delà des bilans de santé obligatoires, les équipes assurent le suivi médical de tous les élèves, mènent des actions d'éducation à la santé et se tiennent à disposition des familles pour toutes questions relatives à la santé. Elles jouent également un rôle essentiel de prévention, de dépistage et d'orientation vers les structures adaptées.
           </p>
 
           <div className="button-borders">

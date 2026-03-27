@@ -22,13 +22,8 @@ export default function SectionAssociationCidff() {
           </p>
 
           <p className="text-white leading-relaxed text-base md:text-lg mb-6">
-            Le CIDFF de BOURGES exerce une mission d’intérêt général confiée par
-            l’État dont l’objectif est de :
-            <br />
-            Favoriser l’autonomie sociale, professionnelle et personnelle des
-            femmes.
-            <br />
-            Promouvoir l’égalité entre les femmes et les hommes.
+            Le Centre d'Information sur les Droits des Femmes et des Familles (CIDFF) de Bourges est une association loi 1901 exerçant une mission d'intérêt général confiée par l'État. Son objectif est double : favoriser l'autonomie sociale, professionnelle et personnelle des femmes, et promouvoir l'égalité entre les femmes et les hommes.
+Basée à Bourges, l'association propose gratuitement et en toute confidentialité des consultations juridiques, un accompagnement vers l'emploi et un soutien aux victimes de violences. Elle s'inscrit dans un réseau national de près d'une centaine de CIDFF présents sur tout le territoire français.
           </p>
           <div className="button-borders">
             <button className="primary-button">
