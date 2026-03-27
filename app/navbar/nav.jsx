@@ -2,11 +2,11 @@
 import {
   Disclosure,
   DisclosureButton,
-  DisclosurePanel
+  DisclosurePanel,
 } from "@headlessui/react";
-import { Bars3Icon,  XMarkIcon } from "@heroicons/react/24/outline";
-import { navData} from "./navData";
-import Image from "next/image"
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { navData } from "./navData";
+import Image from "next/image";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -25,7 +25,11 @@ export default function Nav() {
           const nav = document.querySelector("nav");
           const navHeight = nav ? nav.offsetHeight : 64; // fallback
           const extraGap = 12; // px of extra margin above target
-          const top = target.getBoundingClientRect().top + window.pageYOffset - navHeight - extraGap;
+          const top =
+            target.getBoundingClientRect().top +
+            window.pageYOffset -
+            navHeight -
+            extraGap;
           window.scrollTo({ top, behavior: "smooth" });
           // update URL without jumping
           history.replaceState(null, "", href);
@@ -61,7 +65,7 @@ export default function Nav() {
             <div className="flex shrink-0 items-center">
               <Image
                 alt="Logo Bourges"
-                src="/images/bourgesVN.png"
+                src="/images/logo.png"
                 width={40}
                 height={15}
               />
