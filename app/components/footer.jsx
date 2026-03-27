@@ -2,11 +2,15 @@
 
 import { Typography } from "@material-tailwind/react";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 =======
 import Image from "next/image";
 >>>>>>> 5085910 (plusieurs tickets)
+=======
+import Image from "next/image";
+>>>>>>> 5085910cc28b07ae3a2402773457110b2cfb75b7
 
 const SITEMAP = [
   {
