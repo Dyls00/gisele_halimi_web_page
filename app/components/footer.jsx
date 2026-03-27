@@ -30,8 +30,6 @@ const SITEMAP = [
 
 const currentYear = new Date().getFullYear();
 
-
-
 export default function Footer() {
   return (
     <footer className={`relative w-full bg-[#7A5C8E] fontArial`}>
@@ -66,12 +64,12 @@ export default function Footer() {
               </ul>
             </div>
           ))}
-          <div className="w-full ml-20">
+          <div className="w-full ml-20 py-10">
             <Image
-                src="/images/bourgesVN.png"
-                alt="planning familial 18"
-                width={130}
-                height={100}
+              alt="Logo Bourges"
+              src="/images/logo3.png"
+              width={150}
+              height={150}
             />
           </div>
         </div>
@@ -80,16 +78,14 @@ export default function Footer() {
             variant="small"
             className="mb-4 text-center font-normal text-white md:mb-0"
           >
-           {currentYear} Pôle associatif Gisèle Halimi. Tous droits
-            réservés.
+            {currentYear} Pôle associatif Gisèle Halimi. Tous droits réservés.
           </Typography>
           <div className="flex gap-4 text-white sm:justify-center">
             <Typography
               as="a"
               href="#"
               className="opacity-80 transition-opacity hover:opacity-100"
-            >
-            </Typography>
+            ></Typography>
             <Typography
               as="a"
               href="#"
@@ -97,34 +93,34 @@ export default function Footer() {
             ></Typography>
           </div>
           <div className="flex gap-4 mr-5">
-              <Typography
-                as="a"
-                href="https://www.facebook.com/mairie.bourges"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="opacity-80 transition-opacity hover:opacity-100"
-              >
-                <FaFacebook className="text-white" size={24} />
-              </Typography>
-              <Typography
-                as="a"
-                href="https://www.instagram.com/villedebourges/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="opacity-80 transition-opacity hover:opacity-100"
-              >
-                <FaInstagram className="text-white" size={24} />
-              </Typography>
-              <Typography
-                as="a"
-                href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/VilleDeBourges&ved=2ahUKEwi4_8X1gZ2TAxXkVqQEHdF-EWUQFnoECCAQAQ&usg=AOvVaw2sJlx9VdmY0BoeET5fb2uX"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="opacity-80 transition-opacity hover:opacity-100"
-              >
-                <FaTwitter className="text-white" size={24} />
-              </Typography>
-            </div>
+            <Typography
+              as="a"
+              href="https://www.facebook.com/mairie.bourges"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="opacity-80 transition-opacity hover:opacity-100"
+            >
+              <FaFacebook className="text-white" size={24} />
+            </Typography>
+            <Typography
+              as="a"
+              href="https://www.instagram.com/villedebourges/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="opacity-80 transition-opacity hover:opacity-100"
+            >
+              <FaInstagram className="text-white" size={24} />
+            </Typography>
+            <Typography
+              as="a"
+              href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/VilleDeBourges&ved=2ahUKEwi4_8X1gZ2TAxXkVqQEHdF-EWUQFnoECCAQAQ&usg=AOvVaw2sJlx9VdmY0BoeET5fb2uX"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="opacity-80 transition-opacity hover:opacity-100"
+            >
+              <FaTwitter className="text-white" size={24} />
+            </Typography>
+          </div>
         </div>
       </div>
     </footer>
