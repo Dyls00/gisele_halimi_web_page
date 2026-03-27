@@ -69,6 +69,7 @@ export default function Nav() {
                   src="/images/logo.png"
                   width={40}
                   height={15}
+                  className="h-10 w-10"
                 />
               </a>
             </div>
