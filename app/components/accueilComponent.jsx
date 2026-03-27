@@ -26,8 +26,8 @@ export default function AccueilComponent() {
   }, []);
   return (
     <section id="accueil">
-      <div className="bg-[url('/images/image-accueil.webp')] ">
-        <div className=" px-6 pt-14 lg:px-8">
+      <div className="bg-black">
+        <div className="px-6 pt-14 lg:px-8">
           <div
             aria-hidden="true"
             className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -45,19 +45,27 @@ export default function AccueilComponent() {
               <h1 className="text-5xl text-white font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl h-[120px] sm:h-[160px] flex items-center justify-center">
                 <span ref={el}></span>
               </h1>
-              <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
+              <p className="mt-8 text-lg font-normal text-pretty sm:text-xl/8">
                 Situé dans les quartiers prioritaires de la Chancellerie et des
                 Gibjoncs, le pôle associatif est composé du Hameau de la
                 Fraternité, des locaux associatifs des Merlattes, des salles
                 associatives des Pressavois.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
-                  href="#"
-                  className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  En savoir plus
-                </a>
+                <div className="button_p1">
+            <button className="group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-[#5E4C74] backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:shadow-[#5E4C74]/50 border border-white/20">
+              <a
+                href="https://www.facebook.com/mairie.bourges/posts/-inauguration-du-p%C3%B4le-de-pr%C3%A9vention-associatif-et-m%C3%A9dico-scolaire-gis%C3%A8le-halimi-/1372931574870687/"
+                className="text-white text-sm md:text-base break-all"
+                target="_blank"
+              >
+                En savoir plus
+              </a>
+              <div className="absolute inset-0 flex h-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+              <div className="relative h-full w-10 bg-white/20"></div>
+              </div>
+            </button>
+          </div>
               </div>
             </div>
           </div>

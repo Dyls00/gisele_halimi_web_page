@@ -2,11 +2,11 @@
 import {
   Disclosure,
   DisclosureButton,
-  DisclosurePanel
+  DisclosurePanel,
 } from "@headlessui/react";
-import { Bars3Icon,  XMarkIcon } from "@heroicons/react/24/outline";
-import { navData} from "./navData";
-import Image from "next/image"
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { navData } from "./navData";
+import Image from "next/image";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -25,7 +25,11 @@ export default function Nav() {
           const nav = document.querySelector("nav");
           const navHeight = nav ? nav.offsetHeight : 64; // fallback
           const extraGap = 12; // px of extra margin above target
-          const top = target.getBoundingClientRect().top + window.pageYOffset - navHeight - extraGap;
+          const top =
+            target.getBoundingClientRect().top +
+            window.pageYOffset -
+            navHeight -
+            extraGap;
           window.scrollTo({ top, behavior: "smooth" });
           // update URL without jumping
           history.replaceState(null, "", href);
@@ -38,7 +42,7 @@ export default function Nav() {
   return (
     <Disclosure
       as="nav"
-      className="fixed bg-[#7A5C8E] z-position fontArial after:pointer-events-none w-full after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10"
+      className="fixed bg-[#7A5C8E] w-full z-10 fontArial after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10"
     >
       <div className="mx-auto  max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
@@ -53,18 +57,21 @@ export default function Nav() {
               />
               <XMarkIcon
                 aria-hidden="true"
-                className="hidden size-6 group-data-open:block"
+                className="hidden mb-55 size-6 group-data-open:block"
               />
             </DisclosureButton>
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
             <div className="flex shrink-0 items-center">
-              <Image
-                alt="Logo Bourges"
-                src="/images/bourgesVN.png"
-                width={40}
-                height={15}
-              />
+              <a href="#accueil">
+                <Image
+                  alt="Logo Bourges"
+                  src="/images/logo.png"
+                  width={40}
+                  height={15}
+                  className="h-10 w-10"
+                />
+              </a>
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4 ">

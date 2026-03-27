@@ -17,11 +17,11 @@ export default function SectionLgbt() {
           />
         </div>
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
-          <p className="text-white text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
+          <p className="text-white text-2xl md:text-2xl lg:text-3xl font-bold mb-4">
             Centre LGBTQIA+ Berry
           </p>
 
-          <p className="text-white leading-relaxed text-base md:text-lg mb-6">
+          <p className="text-white leading-relaxed text-base font-normal mb-6">
             Fondé durant l'été 2021, le Centre LGBTQIA+ Berry est une
             association à but non lucratif basée à Bourges. Sa mission est de
             lutter contre toutes les formes d'exclusion, de discrimination, de
@@ -33,8 +33,8 @@ export default function SectionLgbt() {
             questionnement. Des permanences sont assurées chaque mercredi de
             18h30 à 20h30, au 2 Square d'Alice à Bourges.
           </p>
-          <div className="button-borders">
-            <button className="primary-button">
+          <div className="button_p1">
+            <button className="group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-gray-800/30 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:shadow-gray-600/50 border border-white/20">
               <a
                 href="https://centrelgbtqiaberry.fr"
                 className="text-white text-sm md:text-base break-all"
@@ -42,6 +42,9 @@ export default function SectionLgbt() {
               >
                 En savoir plus
               </a>
+              <div className="absolute inset-0 flex h-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+              <div className="relative h-full w-10 bg-white/20"></div>
+              </div>
             </button>
           </div>
         </div>
