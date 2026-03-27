@@ -45,7 +45,7 @@ export default function AccueilComponent() {
               <h1 className="text-5xl text-white font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl h-[120px] sm:h-[160px] flex items-center justify-center">
                 <span ref={el}></span>
               </h1>
-              <p className="mt-8 text-lg font-normal text-pretty text-gray-500 sm:text-xl/8">
+              <p className="mt-8 text-lg font-normal text-pretty sm:text-xl/8">
                 Situé dans les quartiers prioritaires de la Chancellerie et des
                 Gibjoncs, le pôle associatif est composé du Hameau de la
                 Fraternité, des locaux associatifs des Merlattes, des salles
