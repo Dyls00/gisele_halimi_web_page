@@ -53,14 +53,17 @@ export default function AccueilComponent() {
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <div className="button-borders">
-            <button className="primary-button">
+            <button className="group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-gray-800/30 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:shadow-gray-600/50 border border-white/20">
               <a
-                href="https://cher.cidff.info"
+                href="https://www.facebook.com/mairie.bourges/posts/-inauguration-du-p%C3%B4le-de-pr%C3%A9vention-associatif-et-m%C3%A9dico-scolaire-gis%C3%A8le-halimi-/1372931574870687/"
                 className="text-white text-sm md:text-base break-all"
                 target="_blank"
               >
                 En savoir plus
               </a>
+              <div className="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+              <div className="relative h-full w-10 bg-white/20"></div>
+              </div>
             </button>
           </div>
               </div>
