@@ -34,7 +34,7 @@ export default function Footer() {
   return (
     <footer className={`relative w-full bg-[#7A5C8E] fontArial`}>
       <div className="mx-auto w-full max-w-7xl px-8">
-        <div className="mx-auto grid w-full grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-auto grid w-full grid-cols-1 gap-8 py-5 md:grid-cols-2 lg:grid-cols-4">
           {SITEMAP.map(({ title, info }, key) => (
             <div key={key} className="w-full">
               <Typography
@@ -78,7 +78,7 @@ export default function Footer() {
             variant="small"
             className="mb-4 text-center font-normal text-white md:mb-0"
           >
-            {currentYear} Pôle associatif Gisèle Halimi. Tous droits réservés.
+            {currentYear} Pôle associatif et centre médico-scolaire Gisèle Halimi. Tous droits réservés.
           </Typography>
           <div className="flex gap-4 text-white sm:justify-center">
             <Typography

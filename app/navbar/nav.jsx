@@ -63,12 +63,14 @@ export default function Nav() {
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
             <div className="flex shrink-0 items-center">
-              <Image
-                alt="Logo Bourges"
-                src="/images/logo.png"
-                width={40}
-                height={15}
-              />
+              <a href="#accueil">
+                <Image
+                  alt="Logo Bourges"
+                  src="/images/logo.png"
+                  width={40}
+                  height={15}
+                />
+              </a>
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4 ">
