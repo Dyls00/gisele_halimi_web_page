@@ -9,11 +9,11 @@ export default function SectionAssociationPlanning() {
       <div className="container mx-auto max-w-6xl px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Texte */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
-          <p className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+          <p className="text-white text-2xl sm:text-2xl md:text-2xl lg:text-3xl font-bold mb-6">
             Le Planning Familial 18
           </p>
 
-          <p className="text-gray-100 leading-relaxed text-base md:text-lg mb-8 max-w-xl mx-auto md:mx-0">
+          <p className="text-gray-100 leading-relaxed text-base font-normal mb-8 max-w-xl mx-auto md:mx-0">
             Depuis sa réouverture fin 2022, le Planning Familial du Cher (PF18)
             est un acteur incontournable de la vie associative berruyre.
             Mouvement féministe et d'éducation populaire, il milite pour le

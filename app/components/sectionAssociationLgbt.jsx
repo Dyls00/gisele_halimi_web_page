@@ -17,11 +17,11 @@ export default function SectionLgbt() {
           />
         </div>
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
-          <p className="text-white text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
+          <p className="text-white text-2xl md:text-2xl lg:text-3xl font-bold mb-4">
             Centre LGBTQIA+ Berry
           </p>
 
-          <p className="text-white leading-relaxed text-base md:text-lg mb-6">
+          <p className="text-white leading-relaxed text-base font-normal mb-6">
             Fondé durant l'été 2021, le Centre LGBTQIA+ Berry est une
             association à but non lucratif basée à Bourges. Sa mission est de
             lutter contre toutes les formes d'exclusion, de discrimination, de
