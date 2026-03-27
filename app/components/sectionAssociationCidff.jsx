@@ -2,7 +2,8 @@ import Image from "next/image";
 
 export default function SectionAssociationCidff() {
   return (
-    <section id="cidff"
+    <section
+      id="cidff"
       className={`mt-10 bg-[#7A5C8E] rounded-lg shadow-lg mx-4 md:mx-10`}
     >
       <div className="mx-auto px-4 md:px-8 py-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -29,13 +30,17 @@ export default function SectionAssociationCidff() {
             <br />
             Promouvoir l’égalité entre les femmes et les hommes.
           </p>
-
-          <a
-            href="https://cher.cidff.info"
-            className="bg-gray-400 py-2 px-4 rounded-lg shadow-lg text-white hover:bg-gray-500 transition"
-          >
-            En savoir plus
-          </a>
+          <div className="button-borders">
+            <button className="primary-button">
+              <a
+                href="https://cher.cidff.info"
+                className="text-white text-sm md:text-base break-all"
+                target="_blank"
+              >
+                En savoir plus
+              </a>
+            </button>
+          </div>
         </div>
       </div>
     </section>

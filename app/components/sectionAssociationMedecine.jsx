@@ -2,12 +2,13 @@ import Image from "next/image";
 
 export default function SectionMedecine() {
   return (
-    <section id = "medecine"
+    <section
+      id="medecine"
       className={`mt-16 bg-[#7C7C7C] rounded-xl shadow-lg mx-4 md:mx-10 py-12`}
     >
       <div className="container mx-auto max-w-6xl px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Texte */}
-        <div className="text-center md:text-left">
+        <div className="flex flex-col items-center md:items-start text-center md:text-left">
           <p className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
             Médecine Scolaire
           </p>
@@ -19,12 +20,17 @@ export default function SectionMedecine() {
             publics.
           </p>
 
-          <a
-            href="https://www.ac-orleans-tours.fr/sante-social-securite-dans-le-cher-121859"
-            className="inline-block bg-gray-600 hover:bg-gray-700 transition px-6 py-3 rounded-xl shadow-md text-white"
-          >
-            En savoir plus
-          </a>
+          <div className="button-borders">
+            <button className="primary-button">
+              <a
+                href="https://www.ac-orleans-tours.fr/sante-social-securite-dans-le-cher-121859"
+                className="text-white text-sm md:text-base break-all"
+                target="_blank"
+              >
+                En savoir plus
+              </a>
+            </button>
+          </div>
         </div>
 
         {/* Image */}
