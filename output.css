@@ -684,9 +684,6 @@
   .w-fit {
     width: fit-content;
   }
-  .w-full {
-    width: 100%;
-  }
   .max-w-6xl {
     max-width: var(--container-6xl);
   }

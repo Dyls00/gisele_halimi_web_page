@@ -22,7 +22,7 @@ export default function PoleHalimiComponent() {
             alt="Inauguration du pôle associatif"
             width={650}
             height={450}
-            className="rounded-xl shadow-lg w-full max-w-md md:max-w-lg lg:max-w-xl h-auto object-cover"
+            className="rounded-xl shadow-lg max-w-md md:max-w-lg lg:max-w-xl h-auto object-cover"
           />
         </div>
       </div>
