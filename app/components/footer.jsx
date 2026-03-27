@@ -6,17 +6,17 @@ import Image from "next/image";
 
 const SITEMAP = [
   {
-    title: "/ Section gauche",
+    title: "/ NOS ASSOCIATIONS",
     info: [
       { name: "CIDFF 18", link: "#cidff" },
       { name: "Planning familial du Cher", link: "#planning" },
+      { name: "LGBTQIA +", link: "#lgbtqia" },
     ],
   },
   {
-    title: "/ Section droite",
+    title: "/ LES AUTRES SERVICES",
     info: [
       { name: "Médecine scolaire", link: "#médecine" },
-      { name: "LGBTQIA +", link: "#lgbtqia" },
     ],
   },
   {
