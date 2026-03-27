@@ -26,7 +26,7 @@ export default function SectionAssociationPlanning() {
             bienveillant et engagé.
           </p>
 
-          <div className="button-borders">
+          <div className="button_p1">
             <button className="group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-gray-800/30 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:shadow-gray-600/50 border border-white/20">
               <a
                 href="https://www.planning-familial.org/fr/le-planning-familial-du-cher-18"

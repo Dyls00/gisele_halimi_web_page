@@ -52,7 +52,7 @@ export default function AccueilComponent() {
                 associatives des Pressavois.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
-                <div className="button-borders">
+                <div className="button_p1">
             <button className="group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-[#5E4C74] backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:shadow-[#5E4C74]/50 border border-white/20">
               <a
                 href="https://www.facebook.com/mairie.bourges/posts/-inauguration-du-p%C3%B4le-de-pr%C3%A9vention-associatif-et-m%C3%A9dico-scolaire-gis%C3%A8le-halimi-/1372931574870687/"
