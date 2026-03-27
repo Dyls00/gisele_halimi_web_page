@@ -13,7 +13,7 @@ export default function App() {
     <main>
         <Navbar />
         <AccueilComponent />
-        <h2 className="text-black text-3xl font-bold mb-6 mt-4 flex justify-center border-b-4 border-black pb-4 w-fit mx-auto">
+        <h1 className="text-3xl font-bold mb-6 mt-4 flex justify-center border-b-4 pb-4 w-fit mx-auto">
           NOS ASSOCIATIONS
         </h2>
         <CidffPage />

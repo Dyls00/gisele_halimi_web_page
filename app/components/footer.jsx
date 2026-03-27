@@ -1,6 +1,8 @@
 "use client";
 
 import { Typography } from "@material-tailwind/react";
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+
 
 const SITEMAP = [
   {
@@ -96,24 +98,35 @@ export default function Footer() {
             &copy; {currentYear} Pôle associatif Gisèle Halimi. Tous droits
             réservés.
           </Typography>
-          <div className="flex gap-4 text-white sm:justify-center">
-            <Typography
-              as="a"
-              href="#"
-              className="opacity-80 transition-opacity hover:opacity-100"
-            >
-              <img
-                src="/images/bourges.png"
-                alt="Logo Bourges"
-                className="h-14 w-auto mb-5"
-              />
-            </Typography>
-            <Typography
-              as="a"
-              href="#"
-              className="opacity-80 transition-opacity hover:opacity-100"
-            ></Typography>
-          </div>
+          <div className="flex gap-4 mr-5">
+              <Typography
+                as="a"
+                href="https://www.facebook.com/mairie.bourges"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-80 transition-opacity hover:opacity-100"
+              >
+                <FaFacebook className="text-white" size={24} />
+              </Typography>
+              <Typography
+                as="a"
+                href="https://www.instagram.com/villedebourges/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-80 transition-opacity hover:opacity-100"
+              >
+                <FaInstagram className="text-white" size={24} />
+              </Typography>
+              <Typography
+                as="a"
+                href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/VilleDeBourges&ved=2ahUKEwi4_8X1gZ2TAxXkVqQEHdF-EWUQFnoECCAQAQ&usg=AOvVaw2sJlx9VdmY0BoeET5fb2uX"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-80 transition-opacity hover:opacity-100"
+              >
+                <FaTwitter className="text-white" size={24} />
+              </Typography>
+            </div>
         </div>
       </div>
     </footer>
