@@ -9,13 +9,21 @@ export default function SectionMedecine() {
       <div className="container mx-auto max-w-6xl px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Texte */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
-          <p className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+          <p className="text-white text-2xl sm:text-2xl md:text-3xl lg:text-5xl font-bold mb-6">
             Médecine Scolaire
           </p>
 
-          <p className="text-gray-100 leading-relaxed text-base md:text-lg mb-8 max-w-xl mx-auto md:mx-0">
-            Les Centres Médico-Scolaires (CMS) sont des structures de l'Éducation Nationale dédiées à la santé et au bien-être des enfants et adolescents scolarisés. Ils organisent les visites médicales des élèves regroupés par bassin d'éducation, couvrant ainsi plusieurs établissements du premier et second degré publics.
-Au-delà des bilans de santé obligatoires, les équipes assurent le suivi médical de tous les élèves, mènent des actions d'éducation à la santé et se tiennent à disposition des familles pour toutes questions relatives à la santé. Elles jouent également un rôle essentiel de prévention, de dépistage et d'orientation vers les structures adaptées.
+          <p className="text-gray-100 leading-relaxed text-base font-normal mb-8 max-w-xl mx-auto md:mx-0">
+            Les Centres Médico-Scolaires (CMS) sont des structures de
+            l'Éducation Nationale dédiées à la santé et au bien-être des enfants
+            et adolescents scolarisés. Ils organisent les visites médicales des
+            élèves regroupés par bassin d'éducation, couvrant ainsi plusieurs
+            établissements du premier et second degré publics. Au-delà des
+            bilans de santé obligatoires, les équipes assurent le suivi médical
+            de tous les élèves, mènent des actions d'éducation à la santé et se
+            tiennent à disposition des familles pour toutes questions relatives
+            à la santé. Elles jouent également un rôle essentiel de prévention,
+            de dépistage et d'orientation vers les structures adaptées.
           </p>
 
           <div className="button-borders">

@@ -11,12 +11,12 @@ export default function SectionContact() {
       </div>
      <div></div>
       {infoContact.map((item) => (
-        <div key={item.title} className="mx-auto px-6 md:px-10 mb-8">
+        <div key={item.title} className="mx-auto md:w-255 px-6 md:px-10 mb-8">
           <div className="text-center mb-10">
             <p className="text-white text-xl md:text-2xl font-bold mb-2">
               {item.title}
             </p>
-            <p className="text-white text-sm md:text-base">
+            <p className="text-white text-sm font-normal">
               {item.information}
             </p>
           </div>
