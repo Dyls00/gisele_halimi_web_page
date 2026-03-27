@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function PoleHalimiComponent() {
   return (
-    <section className={`py-16 `}>
+    <section className="border-2 border-dark-200 rounded-lg mt-5 mx-4 md:mx-8 lg:mx-12 py-8" id="pole-halimi">
       <div className="container mx-auto max-w-6xl px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center .overflow-wrap">
         <div className="text-center md:text-left">
 
