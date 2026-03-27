@@ -33,14 +33,14 @@ export default function SectionContact() {
                             className="text-white text-sm md:text-base break-all"
                             target="_blank"
                         >
-                            Web : {item.site}
+                            <strong>Web : </strong>{item.site}
                         </a>
 
                         <a
                             href={`mailto:${item.adresseMail}`}
                             className="text-white text-sm md:text-base break-all"
                         >
-                            Mail : {item.adresseMail}
+                            <strong>Mail : </strong>{item.adresseMail}
                         </a>
 
                         <p className="text-white text-sm md:text-base">
@@ -48,7 +48,7 @@ export default function SectionContact() {
                                 href={`tel:${item.adresseMail}`}
                                 className="text-white text-sm md:text-base break-all"
                             >
-                                Téléphone : {item.tel}
+                                <strong>Téléphone : </strong> {item.tel}
                             </a>
                         </p>
                     </div>

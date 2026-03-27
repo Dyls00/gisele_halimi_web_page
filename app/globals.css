@@ -31,6 +31,10 @@ body {
   height: 10vh;
 }
 
+.overflow-wrap {
+  overflow-wrap: break-word;
+}
+
 /* Smooth scrolling for in-page anchors */
 html {
   scroll-behavior: smooth;
