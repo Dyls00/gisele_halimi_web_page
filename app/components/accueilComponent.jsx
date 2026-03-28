@@ -26,7 +26,7 @@ export default function AccueilComponent() {
   }, []);
   return (
     <section id="accueil">
-      <div className="bg-black">
+      <div className="">
         <div className="px-6 pt-14 lg:px-8">
           <div
             aria-hidden="true"
@@ -42,7 +42,7 @@ export default function AccueilComponent() {
           </div>
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-30">
             <div className="text-center">
-              <h1 className="text-5xl text-white font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl h-[120px] sm:h-[160px] flex items-center justify-center">
+              <h1 className="text-5xl font-semibold tracking-tight text-balance sm:text-7xl h-[120px] sm:h-[160px] flex items-center justify-center">
                 <span ref={el}></span>
               </h1>
               <p className="mt-8 text-lg font-normal text-pretty sm:text-xl/8">

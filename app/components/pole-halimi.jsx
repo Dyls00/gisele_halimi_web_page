@@ -8,7 +8,7 @@ export default function PoleHalimiComponent() {
     >
       <div className="container mx-auto max-w-6xl px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center .overflow-wrap">
         <div className="text-center md:text-left">
-          <p className="leading-relaxed ">
+          <p className="leading-relaxed text-white">
             Un moment fort, chargé de sens, qui rend hommage à une figure
             engagée pour les droits et la justice. Ce lieu devient désormais un
             espace de partage, d’entraide et d’initiatives au service des
